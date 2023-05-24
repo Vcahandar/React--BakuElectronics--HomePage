@@ -1,0 +1,221 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.bck-img{
+   width: 100%;
+   height: 400px;
+}
+
+.container{
+    max-width: 100% !important;
+
+}
+
+.dscrptn-header{
+    height: 50px;
+    padding-top: 25px;
+
+
+}
+
+.dscrptn-header a{
+    text-decoration: none;
+}
+
+.info-text{
+    width: 435px;
+    margin-top: 70px;
+
+}
+
+.info-text h4{
+    font-weight: 400;
+}
+
+.info-text p{
+    line-height: 1;
+
+}
+
+.a-class{
+    text-decoration: none;
+    color: blue;
+    cursor: pointer;
+}
+
+.time-text{
+    margin-top: 82px;
+    line-height: 1px;
+}
+
+.category{
+    width: 100%;
+}
+
+
+
+.category ul{
+    font-family: system-ui;
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 2.7;
+    padding-left: 70px;
+
+}
+
+.category p{
+    padding-top: 31px;
+    /* margin-top: 0px; */
+    margin-left: 70px;
+    font-size: 20px;
+
+}
+
+.category ul li{
+    list-style: none;
+    cursor: pointer;;
+}
+
+.category ul li :hover{
+    color: rgb(10, 166, 194);
+}
+
+.num-ctg{
+    font-weight: 400;
+    color: gray;
+}
+
+.prod-card{
+    cursor: pointer;
+    width: 100%;
+    height: 415px;
+}
+
+.prod-card:hover{
+    cursor: pointer;
+    border-color: #CED1D9;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+
+.card-img{
+    height: 140px;
+}
+
+.card-img img{
+    margin-top: 40px;
+    width: 100%;
+}
+
+.discount-card{
+    width: 65px;
+    height: 65px;
+    background-color: #ea2427;
+    border-radius: 50%;
+    margin-left: 10px;
+    z-index: 1;
+    position: relative;
+    top: 35px;
+}
+
+.discount-card span{
+    color: white;
+    font-weight: bold;
+    margin-left: 12px;
+}
+
+.discount-card p{
+    font-size: 12px;
+    color: white;
+    margin-left: 4px;
+}
+
+.dscnt{
+    margin-top: -21px;
+    text-align: center;
+}
+
+.dscnt p{
+    font-size: 12px;
+    margin-top: -4px;
+    color: white;
+}
+
+.star-icon{
+    color: orange;
+    margin-top: 60px;
+    margin-left: 20px;
+    display: flex;
+}
+
+.comment{
+    color: blue;
+    margin-left: 10px;
+    font-size: 12px;
+}
+
+.card-name{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.price-credit{
+    display: flex;
+}
+
+.price{
+    margin-left: 10px;
+}
+
+.manat{
+    margin-top: -20px;
+}
+
+
+.manat span{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.credit{
+    margin-left: 20px;
+}
+
+.crdt{
+    margin-top: -17px;
+}
+
+.paging{
+    list-style: none;
+    display: flex;
+    text-align: center;
+    gap: 8px;
+    margin-left: 20%;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.li-radius{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 1px solid red;
+}
+
+.li-radius-color{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 1px solid red;
+    color: white;
+    background-color: #ea2427;
+}

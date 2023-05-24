@@ -1,0 +1,116 @@
+.footer{
+
+    padding: 65px 15px 0px 85px;
+}
+
+
+.ftr{
+    background-color: #0e1010;
+    color: white;
+}
+
+.footer-title{
+    margin-left: 31px;
+
+}
+
+.footer-title h3{
+    font-size: 21px;
+}
+
+.footer-menu{
+    list-style: none;
+    text-decoration: none;
+    margin-top: 45px;
+
+
+}
+
+.footer-menu li{
+    color: white !important;
+    font-size: 14px;
+    width: 104px;
+    height: 41px;
+}
+
+.footer-menu  a{
+
+    color: white !important;
+    text-decoration: none !important;
+
+}
+
+
+.footer-bottom{
+    margin-left: 31px;
+    margin-top: 40px;
+
+}
+
+.footer-bottom h3{
+    font-size: 21px;
+}
+
+
+.payment{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.payment li{
+margin-bottom: 75px;
+}
+
+
+.ftr-right{
+    background-color: black;
+}
+
+.center{
+    margin-top: 60px;
+    margin-left: 50px;
+}
+
+.center p{
+    color: white;
+    font-weight: bold;
+font-size: 25px;
+}
+
+.time span{
+    color: white;
+}
+
+.phone{
+    display: flex;
+    color: white;
+    margin-left: 10px;
+    font-size: 25px;
+}
+
+.number{
+    margin-top: -10px;
+
+}
+
+.number p{
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.info p{
+    color: white;
+    font-size: 25px;
+}
+
+.owner p{
+    color: white;
+    font-size: 15px;
+} 
+
+.owner span{
+    color: white;
+    font-size: 15px;
+}
